@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 import {
   Card,
   CardHeader,
@@ -7,8 +7,9 @@ import {
   CardDescription,
   CardContent,
 } from "../ui/card";
+import Link from "next/link";
 import { Badge } from "../ui/badge";
-import { Link, ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { projects } from "@/components/data/projects";
 
 export default function Project({ scrollTo }) {
