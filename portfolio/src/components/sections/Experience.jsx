@@ -15,9 +15,8 @@ export default function Experience({ scrollTo }) {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4">
             Professional Experience
           </h2>
-          <p className="text-muted-foreground md:text-lg max-w-2xl">
-            My journey in frontend development, from freelancing to leading
-            development teams at innovative companies.
+          <p className="text-muted-foreground md:text-lg max-w-2xl font-bold">
+            Frontend journey: From intern to leading projects end-to-end.
           </p>
         </div>
 
