@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import profileImage from "../../../public/profilePhoto.jpeg";
+import profileImage from "../../../public/images/profilePhoto.jpeg";
 export default function Hero({ scrollTo }) {
   return (
     <section

@@ -1,7 +1,5 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardContent } from "../ui/card";
-import { Palette, Smartphone, Globe } from "lucide-react";
+import { Card } from "../ui/card";
 
 export default function About({ scrollTo }) {
   return (

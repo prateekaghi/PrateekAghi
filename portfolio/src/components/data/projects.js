@@ -1,5 +1,5 @@
-import smartPark from "../../../public/varidxlogo.png";
-import expense from "../../../public/expenseTracker.png";
+import smartPark from "../../../public/images/varidxlogo.png";
+import expense from "../../../public/images/expenseTracker.png";
 
 export const projects = [
   {
