@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
-
+import Image from "next/image";
+import profileImage from "../../../public/profilePhoto.jpeg";
 export default function Hero({ scrollTo }) {
   return (
     <section
@@ -11,10 +12,10 @@ export default function Hero({ scrollTo }) {
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-              Hi, I'm Alex Johnson
+              Hi, I'm Prateek Aghi
             </h1>
             <h2 className="text-xl text-muted-foreground sm:text-2xl">
-              Front-End Developer & UI/UX Enthusiast
+              Front-End Developer & MERN Stack Enthusiast
             </h2>
           </div>
           <p className="max-w-[600px] text-muted-foreground md:text-xl">
@@ -38,8 +39,14 @@ export default function Hero({ scrollTo }) {
         <div className="flex justify-center lg:justify-end">
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
-            <div className="relative w-80 h-80 rounded-full border-4 border-background shadow-2xl bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
-              <div className="text-6xl">👨‍💻</div>
+
+            <div className="relative w-80 h-80 rounded-full border-4 border-background shadow-2xl bg-gradient-to-br from-blue-100 to-purple-100 overflow-hidden">
+              <Image
+                src={profileImage}
+                alt="Profile"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
