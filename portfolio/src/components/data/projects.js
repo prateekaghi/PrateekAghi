@@ -1,28 +1,45 @@
+import smartPark from "../../../public/varidxlogo.png";
+import expense from "../../../public/expenseTracker.png";
+
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Dashboard",
+    title: "Smart City Platform",
     description:
-      "A comprehensive admin dashboard for managing online stores with real-time analytics, inventory management, and order tracking.",
-    image: "/placeholder.svg?height=300&width=500",
+      "An enterprise-grade IoT platform designed for real-time monitoring and control of park infrastructure. This ongoing project powers multiple client deployments and features advanced integration with occupancy, moisture, rain, and heat sensors.",
+    // image: "/placeholder.svg?height=300&width=500",
+    image: smartPark,
     technologies: [
       "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Chart.js",
-      "Node.js",
+      "Leaflet",
+      "MaterialUI",
+      "HighCharts",
+      "Redux",
+      "GoogleOAuth",
+      "MSAL Auth",
     ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example/ecommerce-dashboard",
+    liveUrl: "https://app.varidx.io/",
+    githubUrl: "",
     featured: true,
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "Expense Tracker",
     description:
-      "A collaborative task management application with drag-and-drop functionality, team collaboration, and progress tracking.",
-    image: "/placeholder.svg?height=300&width=500",
-    technologies: ["Next.js", "React", "Prisma", "PostgreSQL", "Tailwind CSS"],
+      "MERN Stack Expense Tracker to help users efficiently manage their personal finances. The app allows users to add, edit, and delete expenses while providing real-time updates on their spending habits through intuitive dashboards and charts. Key features include user authentication, category-wise expense tracking, and responsive design for seamless use across devices. Scalable and secure project with a focus on data management and visualization.",
+    image: expense,
+    technologies: [
+      "React",
+      "MongoDB",
+      "ExpressJS",
+      "NodeJS",
+      "Zustand",
+      "ReactQuery",
+      "SwaggerUI",
+      "Recharts",
+      "MaterialUI",
+      "Jose-JWT",
+    ],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example/task-manager",
     featured: true,

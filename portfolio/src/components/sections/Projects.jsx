@@ -11,6 +11,7 @@ import Link from "next/link";
 import { Badge } from "../ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 import { projects } from "@/components/data/projects";
+import Image from "next/image";
 
 export default function Project({ scrollTo }) {
   return (
@@ -36,7 +37,17 @@ export default function Project({ scrollTo }) {
               >
                 <div className="relative overflow-hidden">
                   <div className="w-full h-48 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center text-4xl">
-                    🚀
+                    {project.image ? (
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        width={200}
+                        height={100}
+                        className="w-full h-24 object-contain rounded"
+                      />
+                    ) : (
+                      "🚀"
+                    )}
                   </div>
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
                     <Button size="sm" variant="secondary" asChild>
@@ -49,16 +60,18 @@ export default function Project({ scrollTo }) {
                         Live Demo
                       </Link>
                     </Button>
-                    <Button size="sm" variant="secondary" asChild>
-                      <Link
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Github className="h-4 w-4 mr-1" />
-                        Code
-                      </Link>
-                    </Button>
+                    {project.githubUrl && (
+                      <Button size="sm" variant="secondary" asChild>
+                        <Link
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Github className="h-4 w-4 mr-1" />
+                          Code
+                        </Link>
+                      </Button>
+                    )}
                   </div>
                 </div>
                 <CardHeader>
