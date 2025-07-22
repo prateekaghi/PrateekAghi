@@ -14,7 +14,7 @@ export default function Header({ scrollTo }) {
             className="mr-6 flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
             <Code className="h-6 w-6" />
-            <span className="font-bold">Alex Johnson</span>
+            <span className="font-bold">Prateek Aghi</span>
           </button>
         </div>
         <nav className="flex items-center space-x-6 text-sm font-medium">
@@ -52,7 +52,7 @@ export default function Header({ scrollTo }) {
         <div className="ml-auto flex items-center space-x-2">
           <Button variant="ghost" size="icon" asChild>
             <Link
-              href="https://github.com"
+              href="https://github.com/prateekaghi"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +62,7 @@ export default function Header({ scrollTo }) {
           </Button>
           <Button variant="ghost" size="icon" asChild>
             <Link
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/prateekaghi/"
               target="_blank"
               rel="noopener noreferrer"
             >
