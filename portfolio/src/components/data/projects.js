@@ -1,6 +1,3 @@
-import smartPark from "../../../public/images/varidxlogo.png";
-import expense from "../../../public/images/expenseTracker.png";
-
 export const projects = [
   {
     id: 1,
@@ -8,7 +5,7 @@ export const projects = [
     description:
       "An enterprise-grade IoT platform designed for real-time monitoring and control of park infrastructure. This ongoing project powers multiple client deployments and features advanced integration with occupancy, moisture, rain, and heat sensors.",
     // image: "/placeholder.svg?height=300&width=500",
-    image: smartPark,
+    image: "/images/varidxlogo.png",
     technologies: [
       "React",
       "Leaflet",
@@ -27,7 +24,7 @@ export const projects = [
     title: "Expense Tracker",
     description:
       "MERN Stack Expense Tracker to help users efficiently manage their personal finances. The app allows users to add, edit, and delete expenses while providing real-time updates on their spending habits through intuitive dashboards and charts. Key features include user authentication, category-wise expense tracking, and responsive design for seamless use across devices. Scalable and secure project with a focus on data management and visualization.",
-    image: expense,
+    image: "/images/expenseTracker.png",
     technologies: [
       "React",
       "MongoDB",

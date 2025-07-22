@@ -1,7 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import profileImage from "../../../public/images/profilePhoto.jpeg";
 export default function Hero({ scrollTo }) {
   return (
     <section
@@ -42,7 +41,7 @@ export default function Hero({ scrollTo }) {
 
             <div className="relative w-80 h-80 rounded-full border-4 border-background shadow-2xl bg-gradient-to-br from-blue-100 to-purple-100 overflow-hidden">
               <Image
-                src={profileImage}
+                src={"/images/profilePhoto.jpeg"}
                 alt="Profile"
                 fill
                 className="object-cover"
