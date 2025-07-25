@@ -37,8 +37,8 @@ export const projects = [
       "MaterialUI",
       "Jose-JWT",
     ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example/task-manager",
+    liveUrl: "https://expenses-frontend-fxex.onrender.com/",
+    githubUrl: "https://github.com/prateekaghi/expenses",
     featured: true,
   },
   {
