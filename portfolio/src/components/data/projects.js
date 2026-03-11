@@ -48,7 +48,7 @@ export const projects = [
       "A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
     image: "/placeholder.svg?height=300&width=500",
     technologies: ["Vue.js", "JavaScript", "OpenWeather API", "CSS3"],
-    liveUrl: "https://example.com",
+    liveUrl: "",
     githubUrl: "https://github.com/example/weather-app",
     featured: false,
   },
@@ -65,24 +65,13 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Social Media Dashboard",
+    title: "To-Do App",
     description:
-      "An analytics dashboard for social media management with post scheduling, engagement tracking, and performance metrics.",
+      "A responsive task management application built with Vue.js, utilizing Pinia for efficient state management. The app allows users to create, update, and delete tasks while maintaining reactive state across components. Designed with Bootstrap for responsive UI and enhanced with Heroicons for intuitive visual elements, the project demonstrates component-based architecture, state handling, and modern frontend development practices.",
     image: "/placeholder.svg?height=300&width=500",
-    technologies: ["Angular", "TypeScript", "D3.js", "Firebase", "Material UI"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example/social-dashboard",
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "Recipe Finder App",
-    description:
-      "A recipe discovery application with ingredient-based search, meal planning, and nutritional information.",
-    image: "/placeholder.svg?height=300&width=500",
-    technologies: ["React Native", "Redux", "Spoonacular API", "SQLite"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example/recipe-finder",
+    technologies: ["Vue.js", "JavaScript", "Pinia", "Bootstrap", "Heroicons"],
+    liveUrl: "",
+    githubUrl: "https://github.com/prateekaghi/weatherApp",
     featured: false,
   },
 ];
