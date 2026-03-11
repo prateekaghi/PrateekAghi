@@ -108,24 +108,28 @@ export default function Project({ scrollTo }) {
                     💻
                   </div>
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
-                    <Button size="sm" variant="secondary" asChild>
-                      <Link
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <ExternalLink className="h-3 w-3" />
-                      </Link>
-                    </Button>
-                    <Button size="sm" variant="secondary" asChild>
-                      <Link
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Github className="h-3 w-3" />
-                      </Link>
-                    </Button>
+                    {project.liveUrl && (
+                      <Button size="sm" variant="secondary" asChild>
+                        <Link
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <ExternalLink className="h-3 w-3" />
+                        </Link>
+                      </Button>
+                    )}
+                    {project.githubUrl && (
+                      <Button size="sm" variant="secondary" asChild>
+                        <Link
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Github className="h-3 w-3" />
+                        </Link>
+                      </Button>
+                    )}
                   </div>
                 </div>
                 <CardHeader className="pb-2">

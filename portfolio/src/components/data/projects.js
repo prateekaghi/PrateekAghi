@@ -52,19 +52,9 @@ export const projects = [
     githubUrl: "https://github.com/example/weather-app",
     featured: false,
   },
+
   {
     id: 4,
-    title: "Portfolio Website",
-    description:
-      "A responsive portfolio website showcasing creative work with smooth animations and modern design principles.",
-    image: "/placeholder.svg?height=300&width=500",
-    technologies: ["React", "Framer Motion", "Styled Components", "Gatsby"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/prateekaghi/PrateekAghi",
-    featured: false,
-  },
-  {
-    id: 5,
     title: "To-Do App",
     description:
       "A responsive task management application built with Vue.js, utilizing Pinia for efficient state management. The app allows users to create, update, and delete tasks while maintaining reactive state across components. Designed with Bootstrap for responsive UI and enhanced with Heroicons for intuitive visual elements, the project demonstrates component-based architecture, state handling, and modern frontend development practices.",
@@ -72,6 +62,17 @@ export const projects = [
     technologies: ["Vue.js", "JavaScript", "Pinia", "Bootstrap", "Heroicons"],
     liveUrl: "",
     githubUrl: "https://github.com/prateekaghi/weatherApp",
+    featured: false,
+  },
+  {
+    id: 5,
+    title: "Portfolio Website",
+    description:
+      "A responsive portfolio website showcasing creative work with smooth animations and modern design principles.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["React", "Framer Motion", "Styled Components", "Gatsby"],
+    liveUrl: "https://prateek-aghi.vercel.app/",
+    githubUrl: "https://github.com/prateekaghi/PrateekAghi",
     featured: false,
   },
 ];
