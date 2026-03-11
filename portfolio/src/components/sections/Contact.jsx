@@ -18,14 +18,14 @@ export default function Contact({ scrollTo }) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
-              <Link href="mailto:alex.johnson@example.com">
+              <Link href="mailto:prateekaghi42@gmail.com">
                 <Mail className="h-4 w-4 mr-2" />
                 Send Email
               </Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
               <Link
-                href="https://linkedin.com/in/alexjohnson"
+                href="https://www.linkedin.com/in/prateekaghi/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +37,7 @@ export default function Contact({ scrollTo }) {
           <Separator className="my-8" />
           <div className="flex justify-center space-x-6">
             <Link
-              href="https://github.com/alexjohnson"
+              href="https://github.com/prateekaghi"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -46,7 +46,7 @@ export default function Contact({ scrollTo }) {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link
-              href="https://linkedin.com/in/alexjohnson"
+              href="https://www.linkedin.com/in/prateekaghi/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -55,7 +55,7 @@ export default function Contact({ scrollTo }) {
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link
-              href="mailto:alex.johnson@example.com"
+              href="mailto:prateekaghi42@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Mail className="h-6 w-6" />

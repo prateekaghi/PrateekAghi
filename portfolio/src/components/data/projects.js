@@ -60,7 +60,7 @@ export const projects = [
     image: "/placeholder.svg?height=300&width=500",
     technologies: ["React", "Framer Motion", "Styled Components", "Gatsby"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example/portfolio",
+    githubUrl: "https://github.com/prateekaghi/PrateekAghi",
     featured: false,
   },
   {

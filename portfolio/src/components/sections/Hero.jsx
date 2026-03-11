@@ -1,5 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { Mail, Linkedin, Github } from "lucide-react";
 import Image from "next/image";
 export default function Hero({ scrollTo }) {
   return (
@@ -23,15 +25,15 @@ export default function Hero({ scrollTo }) {
             bringing creative ideas to life through code.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
-            <Button size="lg" onClick={() => scrollToSection("projects")}>
-              View My Work
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              onClick={() => scrollToSection("contact")}
-            >
-              Get In Touch
+            <Button size="lg" asChild>
+              <Link
+                href="https://www.linkedin.com/in/prateekaghi/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get In Touch
+                <span className="sr-only">LinkedIn</span>
+              </Link>
             </Button>
           </div>
         </div>
