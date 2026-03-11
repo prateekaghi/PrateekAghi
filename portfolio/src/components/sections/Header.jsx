@@ -9,45 +9,45 @@ export default function Header({ scrollTo }) {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center max-w-7xl mx-auto px-4">
         <div className="mr-4 flex">
-          <button
-            onClick={() => scrollToSection("hero")}
+          <Link
+            href="#hero"
             className="mr-6 flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
             <Code className="h-6 w-6" />
             <span className="font-bold">Prateek Aghi</span>
-          </button>
+          </Link>
         </div>
         <nav className="flex items-center space-x-6 text-sm font-medium">
-          <button
-            onClick={() => scrollToSection("about")}
-            className="transition-colors hover:text-foreground/80"
+          <Link
+            href="#about"
+            className="mr-6 flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
             About
-          </button>
-          <button
-            onClick={() => scrollToSection("experience")}
-            className="transition-colors hover:text-foreground/80"
+          </Link>
+          <Link
+            href="#experience"
+            className="mr-6 flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
             Experience
-          </button>
-          <button
-            onClick={() => scrollToSection("projects")}
-            className="transition-colors hover:text-foreground/80"
+          </Link>
+          <Link
+            href="#projects"
+            className="mr-6 flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
             Projects
-          </button>
-          <button
-            onClick={() => scrollToSection("skills")}
-            className="transition-colors hover:text-foreground/80"
+          </Link>
+          <Link
+            href="#skills"
+            className="mr-6 flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
             Skills
-          </button>
-          <button
-            onClick={() => scrollToSection("contact")}
-            className="transition-colors hover:text-foreground/80"
+          </Link>
+          <Link
+            href="#contact"
+            className="mr-6 flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
             Contact
-          </button>
+          </Link>
         </nav>
         <div className="ml-auto flex items-center space-x-2">
           <Button variant="ghost" size="icon" asChild>

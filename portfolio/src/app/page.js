@@ -10,15 +10,10 @@ import Experience from "@/components/sections/Experience";
 import Header from "@/components/sections/Header";
 
 export default function HomePage() {
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) element.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <Hero scrollTo={scrollToSection} />
+      <Hero />
       <About />
       <Experience />
       <Projects />
